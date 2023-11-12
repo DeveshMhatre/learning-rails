@@ -1,0 +1,27 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+AllCops: 
+  NewCops: enable
+
+Lint/MixedCaseRange:
+  Enabled: true
+Lint/RedundantRegexpQuantifiers:
+  Enabled: true
+
+Style/RedundantArrayConstructor:
+  Enabled: true
+Style/RedundantCurrentDirectoryInPath:
+  Enabled: true
+Style/RedundantFilterChain:
+  Enabled: true
+Style/RedundantRegexpArgument:
+  Enabled: true
+Style/RedundantRegexpConstructor:
+  Enabled: true
+Style/ReturnNilInPredicateMethodDefinition:
+  Enabled: true
+Style/SingleLineDoEndBlock:
+  Enabled: true
+Style/YAMLFileRead:
+  Enabled: true
