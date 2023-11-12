@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-class Article < ApplicationRecord
-  has_many :comments
+class Comment < ApplicationRecord
+  belongs_to :article
 
-  validates :title, presence: true
+  validates :commenter, presence: true
   validates :body, presence: true, length: { minimum: 10 }
 end
